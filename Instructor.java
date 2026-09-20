@@ -9,4 +9,7 @@ public class Instructor {
         this.matriculaInstructor = matriculaInstructor;
     }
 
+    public String descripcion(){
+        return "Instructor: " + nombreInstructor + " " + apellidoInstructor + " - Matricula: " + matriculaInstructor;
+    }
 }
