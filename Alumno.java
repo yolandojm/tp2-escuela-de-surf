@@ -10,9 +10,16 @@ public class Alumno {
         this.nombreAlumno = nombreAlumno;
         this.apellidoAlumno = apellidoAlumno;
         this.dniAlumno = dniAlumno;
-        this.nivelAlumno = nivelAlumno;
+        setNivelAlumno(nivelAlumno);
         this.numeroAlumno = proximoNumero++;
+    }
 
+    public void setNivelAlumno(String nivelAlumno) {
+        if (nivelAlumno.equalsIgnoreCase("principiante") || nivelAlumno.equalsIgnoreCase("intermedio")) {
+            this.nivelAlumno = nivelAlumno;
+        } else {
+            throw new IllegalArgumentException("El nivel debe ser 'principiante' o 'intermedio'.");
+        }
     }
 
     public Alumno(String nombreAlumno, String apellidoAlumno, String dniAlumno) {

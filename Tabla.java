@@ -5,8 +5,15 @@ public class Tabla {
 
     public Tabla(String codigoTabla, double medidaEnPies, boolean disponibilidad) {
         this.codigoTabla = codigoTabla;
-        this.medidaEnPies = medidaEnPies;
+        setMedidaEnPies(medidaEnPies);
         this.disponibilidad = disponibilidad;
+    }
 
+    public void setMedidaEnPies(double medidaEnPies) {
+        if (medidaEnPies >= 5 && medidaEnPies <= 10) {
+            this.medidaEnPies = medidaEnPies;
+        } else {
+            throw new IllegalArgumentException("El largo de la tabla debe estar entre 5 y 10 pies.");
+        }
     }
 }
