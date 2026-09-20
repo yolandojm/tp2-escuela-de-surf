@@ -11,4 +11,7 @@ public class Turno {
         this.instructor = instructor;
     }
 
+    public String descripcion() {
+        return "Fecha: " + fechaTurno + " - Horario: " + horarioTurno + " - " + instructor.descripcion();
+    }
 }
