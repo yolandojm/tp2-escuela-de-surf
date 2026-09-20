@@ -15,4 +15,8 @@ public class Alumno {
 
     }
 
+    public Alumno(String nombreAlumno, String apellidoAlumno, String dniAlumno) {
+        this(nombreAlumno, apellidoAlumno, dniAlumno, "principiante");
+    }
+
 }
