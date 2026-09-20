@@ -4,5 +4,15 @@ public class Alumno {
     private String dniAlumno;
     private String nivelAlumno;
     private int numeroAlumno;
+    private static int proximoNumero = 1;
+
+    public Alumno(String nombreAlumno, String apellidoAlumno, String dniAlumno, String nivelAlumno) {
+        this.nombreAlumno = nombreAlumno;
+        this.apellidoAlumno = apellidoAlumno;
+        this.dniAlumno = dniAlumno;
+        this.nivelAlumno = nivelAlumno;
+        this.numeroAlumno = proximoNumero++;
+
+    }
 
 }
