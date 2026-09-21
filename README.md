@@ -53,7 +53,7 @@ Agregación
  
 b5- nos dimos cuenta que se iba a necesitar una clase Inscripcion porque un alumno puede anotarse en muchos turnos y un turno puede tener muchos alumnos (muchos a muchos), y se guarda informacion dentro de la misma como por ejemplo la fecha que se anotó o si asistió.
 
-b6- B.6 - Revisión del diagrama con las 5 preguntas del taller:
+b6- Revisión del diagrama con las 5 preguntas del taller:
 Multiplicidad: Al revisar las conexiones, nos aseguramos de poner las multiplicidades (como 1 y 0..*) en los extremos de todas las líneas, leyendo las relaciones de forma cruzada para que coincidan con la cantidad exacta que pide el enunciado.   
 Rombo: Nos hicimos la pregunta de si la parte existe sin el todo, y confirmamos que el rombo entre Escuela y Turno va pintado de negro (composición), porque el TP aclara que si la escuela cierra, los turnos dejan de existir.   
 Dónde vive cada atributo: Revisamos la ubicación de los datos y confirmamos que cada atributo está en la clase que le corresponde por naturaleza. Además, nos dimos cuenta de que convenía pasar el DNI, el código de tabla y la matrícula a String para un mejor diseño, y lo dejamos documentado.   
