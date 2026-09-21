@@ -14,6 +14,18 @@ public class Inscripcion {
     }
 
     public String descripcion(){
-        return "fecha de inscripcion: " + fechaInscripcion + " - Asistencia: " + asistencia + " - Tabla: " + tablaAsignada.descripcion() + " - Alumno: " + alumno.descripcion() + " - Turno: " turno.descripcion();
+        return "fecha de inscripcion: " + fechaInscripcion + " - Asistencia: " + asistencia + " - Tabla: " + tablaAsignada.descripcion() + " - Alumno: " + alumno.descripcion() + " - Turno: " + turno.descripcion();
+    }
+
+    public Alumno getAlumno() {
+        return alumno;
+    }
+
+    public boolean isAsistencia() {
+        return asistencia;
+    }
+
+    public Tabla getTablaAsignada() {
+        return tablaAsignada;
     }
 }

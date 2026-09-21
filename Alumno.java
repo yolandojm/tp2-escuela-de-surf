@@ -30,4 +30,8 @@ public class Alumno {
         return "Alumno: " + nombreAlumno + " "  + apellidoAlumno + " - DNI: " + dniAlumno + " - Nivel: " + nivelAlumno + " - Número de alumno: " + numeroAlumno;
     }
 
+    public String getNivelAlumno() {
+        return nivelAlumno;
+    }
+
 }

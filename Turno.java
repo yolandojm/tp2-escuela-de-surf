@@ -26,4 +26,31 @@ public class Turno {
     public String descripcion() {
         return "Fecha: " + fechaTurno + " - Horario: " + horarioTurno + " - " + instructor.descripcion();
     }
+
+    public Instructor getInstructor() {
+        return instructor;
+    }
+
+    public String getFechaTurno() {
+        return fechaTurno;
+    }
+
+    public int getCantidadInscripciones() {
+        return cantidadInscripciones;
+    }
+
+    public Inscripcion[] getInscripciones() {
+        return inscripciones;
+    }
+
+    public double getPorcentajeAsistencia() {
+        if (cantidadInscripciones == 0) return 0.0;
+        int asistencias = 0;
+        for (int i = 0; i < cantidadInscripciones; i++) {
+            if (inscripciones[i].isAsistencia()) {
+                asistencias++;
+            }
+        }
+        return (double) asistencias / cantidadInscripciones * 100;
+    }
 }
