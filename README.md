@@ -82,6 +82,7 @@ El conflicto ocurrió en el archivo main.java. Al intentar fusionar nuestras ram
 
 Participacion de los alumnos:
 
-Alan: Se encargó de armar la estructura base del proyecto. Creó los "moldes" principales (las clases de la Escuela, Instructores, Tablas, etc.) y definió de qué manera se iban a guardar y organizar esos datos dentro del sistema usando arreglos. Realizó el diagrama UML.
-Mariano: Se ocupó de conectar todas las piezas del sistema (por ejemplo, creando la lógica de las inscripciones para unir alumnos con turnos). Además, programó las funcionalidades más específicas como la numeración automática, el cálculo de los porcentajes, el agrupamiento por niveles, y se encargó de armar los reportes finales por consola y de redactar las respuestas teóricas.
+Alan: Mi aporte consistió en el desarrollo de los metodos en las clases principales del sistema y validaciones,  También implementé el control del cupo máximo de inscripciones por turno y realicé las pruebas correspondientes. desarrollé el archivo Main.java, donde realicé la creación y carga de los objetos necesarios para probar el funcionamiento del sistema y sus distintas funcionalidades. Además me encargue de la elaboracion y organizacion del diagrama uml.
+
+Mariano: Hice las clases con sus respectivos constructores, me ocupe de conectar todas las piezas del sistema (por ejemplo, creando la lógica de las inscripciones para unir alumnos con turnos). Además, programe las funcionalidades como la numeración automática, el cálculo de los porcentajes, el agrupamiento por niveles, y me encargue de armar los reportes finales por consola.
 
