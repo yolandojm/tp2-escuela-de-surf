@@ -11,6 +11,9 @@ public class Main {
         Tabla tabla3 = new Tabla("T003", 8.0, false);
         Tabla tabla4 = new Tabla("T004", 9.0, true);
 
+        Turno turno1 = new Turno("22/9", "5pm", instructor1);
+        Turno turno2 = new Turno("22/9", "5pm", instructor2);
+        Turno turno3 = new Turno("23/9", "6pm", instructor1);
 
     }
 }
