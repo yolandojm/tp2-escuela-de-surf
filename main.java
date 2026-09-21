@@ -21,5 +21,23 @@ public class Main {
         Alumno alumno4 = new Alumno("Ana", "Diaz", "40444555", "intermedio");
         Alumno alumno5 = new Alumno("Roman", "Riquelme", "40555666", "principiante");
 
+        Inscripcion inscripcion1 = new Inscripcion("21/9", true, tabla1, alumno1);
+        turno1.agregarInscripcion(inscripcion1);
+
+        Inscripcion inscripcion2 = new Inscripcion("21/9", true, tabla2, alumno2);
+        turno1.agregarInscripcion(inscripcion2);
+
+        Inscripcion inscripcion3 = new Inscripcion("21/9", false, tabla3, alumno3);
+        turno2.agregarInscripcion(inscripcion3);
+
+        Inscripcion inscripcion4 = new Inscripcion("21/9", true, tabla4, alumno4);
+        turno2.agregarInscripcion(inscripcion4);
+
+        Inscripcion inscripcion5 = new Inscripcion("21/9", true, tabla1, alumno5);
+        turno3.agregarInscripcion(inscripcion5);
+
+        Inscripcion inscripcion6 = new Inscripcion("21/9", true, tabla1, alumno1);
+        turno2.agregarInscripcion(inscripcion6);
+
         }
     }
