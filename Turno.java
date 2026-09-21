@@ -15,8 +15,12 @@ public class Turno {
     }
 
     public void agregarInscripcion(Inscripcion inscripcion) {
-        inscripciones[cantidadInscripciones] = inscripcion;
-        cantidadInscripciones++;
+        if (cantidadInscripciones < CUPO_MAXIMO) {
+            inscripciones[cantidadInscripciones] = inscripcion;
+            cantidadInscripciones++;
+        } else {
+            System.out.println("El turno está completo.");
+        }
     }
 
     public String descripcion() {
