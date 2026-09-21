@@ -12,6 +12,6 @@ public class Inscripcion {
     }
 
     public String descripcion(){
-        return "fecha de inscripcion: " + fechaInscripcion + " - Asistencia: " + asistencia + " - Tabla: " + tablaAsignada.descripcion() + " - Alumno: " + alumno.descripcion();
+        return "fecha de inscripcion: " + fechaInscripcion + " - Asistencia: " + asistencia + " - Tabla: " + tablaAsignada.descripcion() + " - Alumno: " + alumno.descripcion() + " - Turno: " turno.descripcion();
     }
 }
