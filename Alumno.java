@@ -25,7 +25,6 @@ public class Alumno {
     public Alumno(String nombreAlumno, String apellidoAlumno, String dniAlumno) {
         this(nombreAlumno, apellidoAlumno, dniAlumno, "principiante");
     }
-}
 
     public String descripcion() {
         return "Alumno: " + nombreAlumno + " "  + apellidoAlumno + " - DNI: " + dniAlumno + " - Nivel: " + nivelAlumno + " - Número de alumno: " + numeroAlumno;
