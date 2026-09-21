@@ -16,4 +16,8 @@ public class Tabla {
             throw new IllegalArgumentException("El largo de la tabla debe estar entre 5 y 10 pies.");
         }
     }
+    public String descripcion(){
+        return "Codigo de tabla: " + codigoTabla + " - Medida (en pies): " + medidaEnPies + " - disponible: " + disponibilidad;
+    }
+
 }
