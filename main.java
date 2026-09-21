@@ -6,5 +6,11 @@ public class Main {
         Instructor instructor1 = new Instructor("Carlos", "Gomez", "MAT001");
         Instructor instructor2 = new Instructor("Juan", "Perez", "MAT002");
 
+        Tabla tabla1 = new Tabla("T001", 6.5, true);
+        Tabla tabla2 = new Tabla("T002", 7.0, true);
+        Tabla tabla3 = new Tabla("T003", 8.0, false);
+        Tabla tabla4 = new Tabla("T004", 9.0, true);
+
+
     }
 }
