@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class main {
     public static void main(String[] args) {
 
@@ -103,6 +106,24 @@ public class main {
 
         System.out.println("\n=== D.4.4 Porcentaje de asistencia de un turno (turno1) ===");
         System.out.printf("Porcentaje de asistencia: %.2f%%\n", turno1.getPorcentajeAsistencia());
+
+        Alumno[] todosLosAlumnos = {alumno1, alumno2, alumno3, alumno4, alumno5};
+        Map<String, Integer> nivelesCount = new HashMap<>();
+
+        for (Alumno a : todosLosAlumnos) {
+            String nivel = a.getNivelAlumno();
+            nivelesCount.put(nivel, nivelesCount.getOrDefault(nivel, 0) + 1);
+        }
+
+        System.out.println("\n=== D.5 Listado de niveles de alumnos ===");
+        for (Map.Entry<String, Integer> entry : nivelesCount.entrySet()) {
+            System.out.println("Nivel: " + entry.getKey() + " - Cantidad: " + entry.getValue());
+        }
+
+        System.out.println("\n=== D.5 Prueba de números correlativos de alumnos ===");
+        for (Alumno a : todosLosAlumnos) {
+            System.out.println(a.descripcion());
+        }
 
     }
 }
