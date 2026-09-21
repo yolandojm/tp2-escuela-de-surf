@@ -15,5 +15,11 @@ public class Main {
         Turno turno2 = new Turno("22/9", "5pm", instructor2);
         Turno turno3 = new Turno("23/9", "6pm", instructor1);
 
+        Alumno alumno1 = new Alumno("Luis", "Rodriguez", "40111222", "principiante");
+        Alumno alumno2 = new Alumno("Martin", "Palermo", "40222333", "intermedio");
+        Alumno alumno3 = new Alumno("Sofia", "Lopez", "40333444", "principiante");
+        Alumno alumno4 = new Alumno("Ana", "Diaz", "40444555", "intermedio");
+        Alumno alumno5 = new Alumno("Roman", "Riquelme", "40555666", "principiante");
+
+        }
     }
-}
