@@ -86,3 +86,6 @@ Alan: Mi aporte consistió en el desarrollo de los metodos en las clases princip
 
 Mariano: Hice las clases con sus respectivos constructores, me ocupe de conectar todas las piezas del sistema (por ejemplo, creando la lógica de las inscripciones para unir alumnos con turnos). Además, programe las funcionalidades como la numeración automática, el cálculo de los porcentajes, el agrupamiento por niveles, y me encargue de armar los reportes finales por consola.
 
+COMPILACIÓN Y EJECUCIÓN:
+javac *.java para compilar.
+java main para ejecutar.
